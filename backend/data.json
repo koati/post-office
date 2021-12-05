@@ -1,0 +1,26 @@
+[
+  { 
+    "from": "Peter Jackson", 
+    "to": "Marie Odalein", 
+    "message": "I love you", 
+    "reference": 256135 
+  },
+  { 
+    "from": "John Doe", 
+    "to": "Jane Doe", 
+    "message": "I love you", 
+    "reference": 587635 
+  },
+  { 
+    "from": "Han Solo", 
+    "to": "Luke Skywalker", 
+    "message": "May the force be with you", 
+    "reference": 654321 
+  },
+  { 
+    "from": "Mr. Smith", 
+    "to": "Odette", 
+    "message": "I love you", 
+    "reference": 123456 
+  }
+]
