@@ -7,12 +7,11 @@ const Search = () => {
   const [value, setValue] = useState('')
   const [mail, setMail] = useState({})
 
-
   const clickHandler = async () => {
     const response = await axios.get(`http://localhost:5000/api/mails/${value}`)
     setMail(response.data)
-    // setMail(JSON.parse(response.data))
   }
+  
   return (
     <div>
       <div className="searchbar">

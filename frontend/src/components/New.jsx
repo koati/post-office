@@ -4,10 +4,10 @@ import axios from 'axios'
 const New = () => {
 
   const empty = {
-    from: '',
-    to: '',
-    message: '',
-    reference: ''
+    "from": '',
+    "to": '',
+    "message": '',
+    "reference": ''
   }
 
   const [inputs , setInputs] = useState(empty)
